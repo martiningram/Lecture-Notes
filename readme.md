@@ -16,10 +16,22 @@ MathJax.Hub.Queue(function() {
 });
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <!---
-test-->
+End of the introductory stuff.
+-->
+
+#Header.
 
 * This is a test
 * Why is there no syntax highlighting
 
-Let's try some maths: `$x=x+2$`
+Let's try some maths: $x=x+2$
+
+And more maths:
+
+$$
+\Gamma(z) = x + 1
+$$
+
+And some more tests....

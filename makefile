@@ -7,3 +7,4 @@ all : $(HTMLS)
 
 %.html : %.md
 	pandoc -f markdown -t html -s $< -o $@
+
