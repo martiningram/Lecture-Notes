@@ -10,4 +10,4 @@ all : $(PDFS)
 
 %.pdf : %.md
 	pandoc -f markdown -t latex -s $< -o $@
-	java -jar $(PATH_TO_BRISS) -s $@
+#	java -jar $(PATH_TO_BRISS) -s $@
