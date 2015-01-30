@@ -6,7 +6,7 @@ Things I would like to get done.
 	* See how I can make notes work very nicely
 		* Check out the notes plugin
 		* In particular, move bullet points up and down (priority)
-		* Maybe give items priorities and filter by these?
+		* Maybe give items priorities and filter by these? 
 	* Make `make` able to run asynchronously so that I don't have to wait
 	(there is a link somewhere)
 	* Work out how to use git nicely (like magit in emacs)
@@ -15,6 +15,8 @@ Things I would like to get done.
 	* Find out how to use visual mode effectively
 	* Find out how to use the clipboard properly
 	* auto-complete for python, C++
+	* Find out how to quickly go to files I use often (registers? Notes
+	plugin?)
 
 * Tennis:
 	* produce object-oriented ball tracking framework, probably using
@@ -43,6 +45,8 @@ Things I would like to get done.
 	* Set up cmake using George's build stuff to make sure I can easily
 	compile things cross-platform
 		* Probably have to setup OpenCV properly for this to work.
+	* Change git name from noctilux to mdi14 either globally or, at the very
+	least, for all the tennis project things.
 
 * Logic-based learning:
 	* Finish Tutorial 1 _mostly done_
