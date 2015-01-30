@@ -1,10 +1,13 @@
+# NOTE: To make maths expressions work, remove the ` ` markers in markdown.
+
 MDS=$(wildcard *.md) #This should find all mds in the current folder
-HTMLS=$(patsubst %.md,%.html,$(MDS)) #This should produce the corresponding HTML names
+PDFS=$(patsubst %.md,%.pdf,$(MDS)) #This should produce the corresponding HTML names
+PATH_TO_BRISS="C:\Users\marti_000\Downloads\Programmes\briss-0.9\briss-0.9\briss-0.9.exe"
 
 .PHONY : all
 
-all : $(HTMLS)
+all : $(PDFS)
 
-%.html : %.md
-	pandoc -f markdown -t html -s $< -o $@
-
+%.pdf : %.md
+	pandoc -f markdown -t latex -s $< -o $@
+	java -jar $(PATH_TO_BRISS) -s $@
